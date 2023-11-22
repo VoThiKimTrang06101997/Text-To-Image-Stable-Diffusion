@@ -1,0 +1,473 @@
+[
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "nn",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "functional",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "functional",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "functional",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "functional",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "functional",
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "isExtraImport": true,
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "SelfAttention",
+        "importPath": "attention",
+        "description": "attention",
+        "isExtraImport": true,
+        "detail": "attention",
+        "documentation": {}
+    },
+    {
+        "label": "SelfAttention",
+        "importPath": "attention",
+        "description": "attention",
+        "isExtraImport": true,
+        "detail": "attention",
+        "documentation": {}
+    },
+    {
+        "label": "SelfAttention",
+        "importPath": "attention",
+        "description": "attention",
+        "isExtraImport": true,
+        "detail": "attention",
+        "documentation": {}
+    },
+    {
+        "label": "CrossAttention",
+        "importPath": "attention",
+        "description": "attention",
+        "isExtraImport": true,
+        "detail": "attention",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "VAE_AttentionBlock",
+        "importPath": "decoder",
+        "description": "decoder",
+        "isExtraImport": true,
+        "detail": "decoder",
+        "documentation": {}
+    },
+    {
+        "label": "VAE_ResidualBlock",
+        "importPath": "decoder",
+        "description": "decoder",
+        "isExtraImport": true,
+        "detail": "decoder",
+        "documentation": {}
+    },
+    {
+        "label": "VAE_Decoder",
+        "importPath": "decoder",
+        "description": "decoder",
+        "isExtraImport": true,
+        "detail": "decoder",
+        "documentation": {}
+    },
+    {
+        "label": "VAE_Decoder",
+        "importPath": "decoder",
+        "description": "decoder",
+        "isExtraImport": true,
+        "detail": "decoder",
+        "documentation": {}
+    },
+    {
+        "label": "CLIP",
+        "importPath": "clip",
+        "description": "clip",
+        "isExtraImport": true,
+        "detail": "clip",
+        "documentation": {}
+    },
+    {
+        "label": "VAE_Encoder",
+        "importPath": "encoder",
+        "description": "encoder",
+        "isExtraImport": true,
+        "detail": "encoder",
+        "documentation": {}
+    },
+    {
+        "label": "VAE_Encoder",
+        "importPath": "encoder",
+        "description": "encoder",
+        "isExtraImport": true,
+        "detail": "encoder",
+        "documentation": {}
+    },
+    {
+        "label": "Diffusion",
+        "importPath": "diffusion",
+        "description": "diffusion",
+        "isExtraImport": true,
+        "detail": "diffusion",
+        "documentation": {}
+    },
+    {
+        "label": "model_converter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "model_converter",
+        "description": "model_converter",
+        "detail": "model_converter",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "DDPMSampler",
+        "importPath": "ddpm",
+        "description": "ddpm",
+        "isExtraImport": true,
+        "detail": "ddpm",
+        "documentation": {}
+    },
+    {
+        "label": "SelfAttention",
+        "kind": 6,
+        "importPath": "sd.attention",
+        "description": "sd.attention",
+        "peekOfCode": "class SelfAttention(nn.Module):\n    def __init__(self, n_heads, d_embed, in_proj_bias=True, out_proj_bias=True):\n        super().__init__()\n        # This combines the Wq, Wk and Wv matrices into one matrix\n        self.in_proj = nn.Linear(d_embed, 3 * d_embed, bias=in_proj_bias)\n        # This one represents the Wo matrix\n        self.out_proj = nn.Linear(d_embed, d_embed, bias=out_proj_bias)\n        self.n_heads = n_heads\n        self.d_head = d_embed // n_heads\n    def forward(self, x, causal_mask=False):",
+        "detail": "sd.attention",
+        "documentation": {}
+    },
+    {
+        "label": "CrossAttention",
+        "kind": 6,
+        "importPath": "sd.attention",
+        "description": "sd.attention",
+        "peekOfCode": "class CrossAttention(nn.Module):\n    def __init__(self, n_heads, d_embed, d_cross, in_proj_bias=True, out_proj_bias=True):\n        super().__init__()\n        self.q_proj   = nn.Linear(d_embed, d_embed, bias=in_proj_bias)\n        self.k_proj   = nn.Linear(d_cross, d_embed, bias=in_proj_bias)\n        self.v_proj   = nn.Linear(d_cross, d_embed, bias=in_proj_bias)\n        self.out_proj = nn.Linear(d_embed, d_embed, bias=out_proj_bias)\n        self.n_heads = n_heads\n        self.d_head = d_embed // n_heads\n    def forward(self, x, y):",
+        "detail": "sd.attention",
+        "documentation": {}
+    },
+    {
+        "label": "CLIPEmbedding",
+        "kind": 6,
+        "importPath": "sd.clip",
+        "description": "sd.clip",
+        "peekOfCode": "class CLIPEmbedding(nn.Module):\n    def __init__(self, n_vocab: int, n_embd: int, n_token: int):\n        super().__init__()\n        self.token_embedding = nn.Embedding(n_vocab, n_embd)\n        # A learnable weight matrix encodes the position information for each token\n        self.position_embedding = nn.Parameter(torch.zeros((n_token, n_embd)))\n    def forward(self, tokens):\n        # (Batch_Size, Seq_Len) -> (Batch_Size, Seq_Len, Dim) \n        x = self.token_embedding(tokens)\n        # (Batch_Size, Seq_Len) -> (Batch_Size, Seq_Len, Dim)",
+        "detail": "sd.clip",
+        "documentation": {}
+    },
+    {
+        "label": "CLIPLayer",
+        "kind": 6,
+        "importPath": "sd.clip",
+        "description": "sd.clip",
+        "peekOfCode": "class CLIPLayer(nn.Module):\n    def __init__(self, n_head: int, n_embd: int):\n        super().__init__()\n        # Pre-attention norm\n        self.layernorm_1 = nn.LayerNorm(n_embd)\n        # Self attention\n        self.attention = SelfAttention(n_head, n_embd)\n        # Pre-FNN norm\n        self.layernorm_2 = nn.LayerNorm(n_embd)\n        # Feedforward layer",
+        "detail": "sd.clip",
+        "documentation": {}
+    },
+    {
+        "label": "CLIP",
+        "kind": 6,
+        "importPath": "sd.clip",
+        "description": "sd.clip",
+        "peekOfCode": "class CLIP(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.embedding = CLIPEmbedding(49408, 768, 77)\n        self.layers = nn.ModuleList([\n            CLIPLayer(12, 768) for i in range(12)\n        ])\n        self.layernorm = nn.LayerNorm(768)\n    def forward(self, tokens: torch.LongTensor) -> torch.FloatTensor:\n        tokens = tokens.type(torch.long)",
+        "detail": "sd.clip",
+        "documentation": {}
+    },
+    {
+        "label": "DDPMSampler",
+        "kind": 6,
+        "importPath": "sd.ddpm",
+        "description": "sd.ddpm",
+        "peekOfCode": "class DDPMSampler:\n    def __init__(self, generator: torch.Generator, num_training_steps=1000, beta_start: float = 0.00085, beta_end: float = 0.0120):\n        # Params \"beta_start\" and \"beta_end\" taken from: https://github.com/CompVis/stable-diffusion/blob/21f890f9da3cfbeaba8e2ac3c425ee9e998d5229/configs/stable-diffusion/v1-inference.yaml#L5C8-L5C8\n        # For the naming conventions, refer to the DDPM paper (https://arxiv.org/pdf/2006.11239.pdf)\n        self.betas = torch.linspace(beta_start ** 0.5, beta_end ** 0.5, num_training_steps, dtype=torch.float32) ** 2\n        self.alphas = 1.0 - self.betas\n        self.alphas_cumprod = torch.cumprod(self.alphas, dim=0)\n        self.one = torch.tensor(1.0)\n        self.generator = generator\n        self.num_train_timesteps = num_training_steps",
+        "detail": "sd.ddpm",
+        "documentation": {}
+    },
+    {
+        "label": "VAE_AttentionBlock",
+        "kind": 6,
+        "importPath": "sd.decoder",
+        "description": "sd.decoder",
+        "peekOfCode": "class VAE_AttentionBlock(nn.Module):\n    def __init__(self, channels):\n        super().__init__()\n        self.groupnorm = nn.GroupNorm(32, channels)\n        self.attention = SelfAttention(1, channels)\n    def forward(self, x):\n        # x: (Batch_Size, Features, Height, Width)\n        residue = x \n        # (Batch_Size, Features, Height, Width) -> (Batch_Size, Features, Height, Width)\n        x = self.groupnorm(x)",
+        "detail": "sd.decoder",
+        "documentation": {}
+    },
+    {
+        "label": "VAE_ResidualBlock",
+        "kind": 6,
+        "importPath": "sd.decoder",
+        "description": "sd.decoder",
+        "peekOfCode": "class VAE_ResidualBlock(nn.Module):\n    def __init__(self, in_channels, out_channels):\n        super().__init__()\n        self.groupnorm_1 = nn.GroupNorm(32, in_channels)\n        self.conv_1 = nn.Conv2d(in_channels, out_channels, kernel_size=3, padding=1)\n        self.groupnorm_2 = nn.GroupNorm(32, out_channels)\n        self.conv_2 = nn.Conv2d(out_channels, out_channels, kernel_size=3, padding=1)\n        if in_channels == out_channels:\n            self.residual_layer = nn.Identity()\n        else:",
+        "detail": "sd.decoder",
+        "documentation": {}
+    },
+    {
+        "label": "VAE_Decoder",
+        "kind": 6,
+        "importPath": "sd.decoder",
+        "description": "sd.decoder",
+        "peekOfCode": "class VAE_Decoder(nn.Sequential):\n    def __init__(self):\n        super().__init__(\n            # (Batch_Size, 4, Height / 8, Width / 8) -> (Batch_Size, 4, Height / 8, Width / 8)\n            nn.Conv2d(4, 4, kernel_size=1, padding=0),\n            # (Batch_Size, 4, Height / 8, Width / 8) -> (Batch_Size, 512, Height / 8, Width / 8)\n            nn.Conv2d(4, 512, kernel_size=3, padding=1),\n            # (Batch_Size, 512, Height / 8, Width / 8) -> (Batch_Size, 512, Height / 8, Width / 8)\n            VAE_ResidualBlock(512, 512), \n            # (Batch_Size, 512, Height / 8, Width / 8) -> (Batch_Size, 512, Height / 8, Width / 8)",
+        "detail": "sd.decoder",
+        "documentation": {}
+    },
+    {
+        "label": "TimeEmbedding",
+        "kind": 6,
+        "importPath": "sd.diffusion",
+        "description": "sd.diffusion",
+        "peekOfCode": "class TimeEmbedding(nn.Module):\n    def __init__(self, n_embd):\n        super().__init__()\n        self.linear_1 = nn.Linear(n_embd, 4 * n_embd)\n        self.linear_2 = nn.Linear(4 * n_embd, 4 * n_embd)\n    def forward(self, x):\n        # x: (1, 320)\n        # (1, 320) -> (1, 1280)\n        x = self.linear_1(x)\n        # (1, 1280) -> (1, 1280)",
+        "detail": "sd.diffusion",
+        "documentation": {}
+    },
+    {
+        "label": "UNET_ResidualBlock",
+        "kind": 6,
+        "importPath": "sd.diffusion",
+        "description": "sd.diffusion",
+        "peekOfCode": "class UNET_ResidualBlock(nn.Module):\n    def __init__(self, in_channels, out_channels, n_time=1280):\n        super().__init__()\n        self.groupnorm_feature = nn.GroupNorm(32, in_channels)\n        self.conv_feature = nn.Conv2d(in_channels, out_channels, kernel_size=3, padding=1)\n        self.linear_time = nn.Linear(n_time, out_channels)\n        self.groupnorm_merged = nn.GroupNorm(32, out_channels)\n        self.conv_merged = nn.Conv2d(out_channels, out_channels, kernel_size=3, padding=1)\n        if in_channels == out_channels:\n            self.residual_layer = nn.Identity()",
+        "detail": "sd.diffusion",
+        "documentation": {}
+    },
+    {
+        "label": "UNET_AttentionBlock",
+        "kind": 6,
+        "importPath": "sd.diffusion",
+        "description": "sd.diffusion",
+        "peekOfCode": "class UNET_AttentionBlock(nn.Module):\n    def __init__(self, n_head: int, n_embd: int, d_context=768):\n        super().__init__()\n        channels = n_head * n_embd\n        self.groupnorm = nn.GroupNorm(32, channels, eps=1e-6)\n        self.conv_input = nn.Conv2d(channels, channels, kernel_size=1, padding=0)\n        self.layernorm_1 = nn.LayerNorm(channels)\n        self.attention_1 = SelfAttention(n_head, channels, in_proj_bias=False)\n        self.layernorm_2 = nn.LayerNorm(channels)\n        self.attention_2 = CrossAttention(n_head, channels, d_context, in_proj_bias=False)",
+        "detail": "sd.diffusion",
+        "documentation": {}
+    },
+    {
+        "label": "Upsample",
+        "kind": 6,
+        "importPath": "sd.diffusion",
+        "description": "sd.diffusion",
+        "peekOfCode": "class Upsample(nn.Module):\n    def __init__(self, channels):\n        super().__init__()\n        self.conv = nn.Conv2d(channels, channels, kernel_size=3, padding=1)\n    def forward(self, x):\n        # (Batch_Size, Features, Height, Width) -> (Batch_Size, Features, Height * 2, Width * 2)\n        x = F.interpolate(x, scale_factor=2, mode='nearest') \n        return self.conv(x)\nclass SwitchSequential(nn.Sequential):\n    def forward(self, x, context, time):",
+        "detail": "sd.diffusion",
+        "documentation": {}
+    },
+    {
+        "label": "SwitchSequential",
+        "kind": 6,
+        "importPath": "sd.diffusion",
+        "description": "sd.diffusion",
+        "peekOfCode": "class SwitchSequential(nn.Sequential):\n    def forward(self, x, context, time):\n        for layer in self:\n            if isinstance(layer, UNET_AttentionBlock):\n                x = layer(x, context)\n            elif isinstance(layer, UNET_ResidualBlock):\n                x = layer(x, time)\n            else:\n                x = layer(x)\n        return x",
+        "detail": "sd.diffusion",
+        "documentation": {}
+    },
+    {
+        "label": "UNET",
+        "kind": 6,
+        "importPath": "sd.diffusion",
+        "description": "sd.diffusion",
+        "peekOfCode": "class UNET(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.encoders = nn.ModuleList([\n            # (Batch_Size, 4, Height / 8, Width / 8) -> (Batch_Size, 320, Height / 8, Width / 8)\n            SwitchSequential(nn.Conv2d(4, 320, kernel_size=3, padding=1)),\n            # (Batch_Size, 320, Height / 8, Width / 8) -> # (Batch_Size, 320, Height / 8, Width / 8) -> (Batch_Size, 320, Height / 8, Width / 8)\n            SwitchSequential(UNET_ResidualBlock(320, 320), UNET_AttentionBlock(8, 40)),\n            # (Batch_Size, 320, Height / 8, Width / 8) -> # (Batch_Size, 320, Height / 8, Width / 8) -> (Batch_Size, 320, Height / 8, Width / 8)\n            SwitchSequential(UNET_ResidualBlock(320, 320), UNET_AttentionBlock(8, 40)),",
+        "detail": "sd.diffusion",
+        "documentation": {}
+    },
+    {
+        "label": "UNET_OutputLayer",
+        "kind": 6,
+        "importPath": "sd.diffusion",
+        "description": "sd.diffusion",
+        "peekOfCode": "class UNET_OutputLayer(nn.Module):\n    def __init__(self, in_channels, out_channels):\n        super().__init__()\n        self.groupnorm = nn.GroupNorm(32, in_channels)\n        self.conv = nn.Conv2d(in_channels, out_channels, kernel_size=3, padding=1)\n    def forward(self, x):\n        # x: (Batch_Size, 320, Height / 8, Width / 8)\n        # (Batch_Size, 320, Height / 8, Width / 8) -> (Batch_Size, 320, Height / 8, Width / 8)\n        x = self.groupnorm(x)\n        # (Batch_Size, 320, Height / 8, Width / 8) -> (Batch_Size, 320, Height / 8, Width / 8)",
+        "detail": "sd.diffusion",
+        "documentation": {}
+    },
+    {
+        "label": "Diffusion",
+        "kind": 6,
+        "importPath": "sd.diffusion",
+        "description": "sd.diffusion",
+        "peekOfCode": "class Diffusion(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.time_embedding = TimeEmbedding(320)\n        self.unet = UNET()\n        self.final = UNET_OutputLayer(320, 4)\n    def forward(self, latent, context, time):\n        # latent: (Batch_Size, 4, Height / 8, Width / 8)\n        # context: (Batch_Size, Seq_Len, Dim)\n        # time: (1, 320)",
+        "detail": "sd.diffusion",
+        "documentation": {}
+    },
+    {
+        "label": "VAE_Encoder",
+        "kind": 6,
+        "importPath": "sd.encoder",
+        "description": "sd.encoder",
+        "peekOfCode": "class VAE_Encoder(nn.Sequential):\n    def __init__(self):\n        super().__init__(\n            # (Batch_Size, Channel, Height, Width) -> (Batch_Size, 128, Height, Width)\n            nn.Conv2d(3, 128, kernel_size=3, padding=1),\n             # (Batch_Size, 128, Height, Width) -> (Batch_Size, 128, Height, Width)\n            VAE_ResidualBlock(128, 128),\n            # (Batch_Size, 128, Height, Width) -> (Batch_Size, 128, Height, Width)\n            VAE_ResidualBlock(128, 128),\n            # (Batch_Size, 128, Height, Width) -> (Batch_Size, 128, Height / 2, Width / 2)",
+        "detail": "sd.encoder",
+        "documentation": {}
+    },
+    {
+        "label": "load_from_standard_weights",
+        "kind": 2,
+        "importPath": "sd.model_converter",
+        "description": "sd.model_converter",
+        "peekOfCode": "def load_from_standard_weights(input_file: str, device: str) -> dict[str, torch.Tensor]:\n    # Taken from: https://github.com/kjsman/stable-diffusion-pytorch/issues/7#issuecomment-1426839447\n    original_model = torch.load(input_file, map_location=device, weights_only = False)[\"state_dict\"]\n    converted = {}\n    converted['diffusion'] = {}\n    converted['encoder'] = {}\n    converted['decoder'] = {}\n    converted['clip'] = {}\n    converted['diffusion']['time_embedding.linear_1.weight'] = original_model['model.diffusion_model.time_embed.0.weight']\n    converted['diffusion']['time_embedding.linear_1.bias'] = original_model['model.diffusion_model.time_embed.0.bias']",
+        "detail": "sd.model_converter",
+        "documentation": {}
+    },
+    {
+        "label": "preload_models_from_standard_weights",
+        "kind": 2,
+        "importPath": "sd.model_loader",
+        "description": "sd.model_loader",
+        "peekOfCode": "def preload_models_from_standard_weights(ckpt_path, device):\n    state_dict = model_converter.load_from_standard_weights(ckpt_path, device)\n    encoder = VAE_Encoder().to(device)\n    encoder.load_state_dict(state_dict['encoder'], strict=True)\n    decoder = VAE_Decoder().to(device)\n    decoder.load_state_dict(state_dict['decoder'], strict=True)\n    diffusion = Diffusion().to(device)\n    diffusion.load_state_dict(state_dict['diffusion'], strict=True)\n    clip = CLIP().to(device)\n    clip.load_state_dict(state_dict['clip'], strict=True)",
+        "detail": "sd.model_loader",
+        "documentation": {}
+    },
+    {
+        "label": "generate",
+        "kind": 2,
+        "importPath": "sd.pipeline",
+        "description": "sd.pipeline",
+        "peekOfCode": "def generate(\n    prompt,\n    uncond_prompt=None,\n    input_image=None,\n    strength=0.8,\n    do_cfg=True,\n    cfg_scale=7.5,\n    sampler_name=\"ddpm\",\n    n_inference_steps=50,\n    models={},",
+        "detail": "sd.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "rescale",
+        "kind": 2,
+        "importPath": "sd.pipeline",
+        "description": "sd.pipeline",
+        "peekOfCode": "def rescale(x, old_range, new_range, clamp=False):\n    old_min, old_max = old_range\n    new_min, new_max = new_range\n    x -= old_min\n    x *= (new_max - new_min) / (old_max - old_min)\n    x += new_min\n    if clamp:\n        x = x.clamp(new_min, new_max)\n    return x\ndef get_time_embedding(timestep):",
+        "detail": "sd.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "get_time_embedding",
+        "kind": 2,
+        "importPath": "sd.pipeline",
+        "description": "sd.pipeline",
+        "peekOfCode": "def get_time_embedding(timestep):\n    # Shape: (160,)\n    freqs = torch.pow(10000, -torch.arange(start=0, end=160, dtype=torch.float32) / 160) \n    # Shape: (1, 160)\n    x = torch.tensor([timestep], dtype=torch.float32)[:, None] * freqs[None]\n    # Shape: (1, 160 * 2)\n    return torch.cat([torch.cos(x), torch.sin(x)], dim=-1)",
+        "detail": "sd.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "WIDTH",
+        "kind": 5,
+        "importPath": "sd.pipeline",
+        "description": "sd.pipeline",
+        "peekOfCode": "WIDTH = 512\nHEIGHT = 512\nLATENTS_WIDTH = WIDTH // 8\nLATENTS_HEIGHT = HEIGHT // 8\ndef generate(\n    prompt,\n    uncond_prompt=None,\n    input_image=None,\n    strength=0.8,\n    do_cfg=True,",
+        "detail": "sd.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "HEIGHT",
+        "kind": 5,
+        "importPath": "sd.pipeline",
+        "description": "sd.pipeline",
+        "peekOfCode": "HEIGHT = 512\nLATENTS_WIDTH = WIDTH // 8\nLATENTS_HEIGHT = HEIGHT // 8\ndef generate(\n    prompt,\n    uncond_prompt=None,\n    input_image=None,\n    strength=0.8,\n    do_cfg=True,\n    cfg_scale=7.5,",
+        "detail": "sd.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "LATENTS_WIDTH",
+        "kind": 5,
+        "importPath": "sd.pipeline",
+        "description": "sd.pipeline",
+        "peekOfCode": "LATENTS_WIDTH = WIDTH // 8\nLATENTS_HEIGHT = HEIGHT // 8\ndef generate(\n    prompt,\n    uncond_prompt=None,\n    input_image=None,\n    strength=0.8,\n    do_cfg=True,\n    cfg_scale=7.5,\n    sampler_name=\"ddpm\",",
+        "detail": "sd.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "LATENTS_HEIGHT",
+        "kind": 5,
+        "importPath": "sd.pipeline",
+        "description": "sd.pipeline",
+        "peekOfCode": "LATENTS_HEIGHT = HEIGHT // 8\ndef generate(\n    prompt,\n    uncond_prompt=None,\n    input_image=None,\n    strength=0.8,\n    do_cfg=True,\n    cfg_scale=7.5,\n    sampler_name=\"ddpm\",\n    n_inference_steps=50,",
+        "detail": "sd.pipeline",
+        "documentation": {}
+    }
+]
